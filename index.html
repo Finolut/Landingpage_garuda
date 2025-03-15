@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
     <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
     <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
 
     <link rel="stylesheet" href="style.css">
@@ -22,9 +24,9 @@
     <nav id="header" class="fixed w-full z-30 top-0 text-white">
       <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
         <div class="pl-4 flex items-center">
-          <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+          <a class="toggleColour text-white no-underline hover:no-underline text-2xl lg:text-4xl" href="#">
             <!--Icon from: http://www.potlabicons.com/ -->
-            <img class="h-8 inline" src="img/logo.png" alt="Gambar">
+            <img class="h-10 inline" src="img/logo.png" alt="Gambar">
 
            Garuda Indonesia ID
           </a>
@@ -32,7 +34,6 @@
         <div class="block lg:hidden pr-4">
           <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-              <title>Menu</title>
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
             </svg>
           </button>
@@ -40,20 +41,20 @@
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
           <ul class="list-reset lg:flex justify-end flex-1 items-center">
             <li class="mr-3">
-              <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
+              <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Perjalanan</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
+              <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Destinasi</a>
             </li>
             <li class="mr-3">
-              <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
+              <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Penawaran</a>
             </li>
           </ul>
           <button
             id="navAction"
             class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
           >
-            Action
+            Masuk Akun
           </button>
         </div>
       </div>
@@ -64,12 +65,12 @@
       <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <!--Left Col-->
         <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-          <p class="uppercase tracking-loose w-full">What business are you?</p>
+          <p class="uppercase tracking-loose w-full">Terbang Bersama Kenyamanan</p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
-            Main Hero Message to sell yourself!
+            Jelajahi Dunia dengan Layanan Terbaik
           </h1>
           <p class="leading-normal text-2xl mb-8">
-            Sub-hero message, not too long and not too short. Make it just right!
+            Nikmati perjalanan yang aman, nyaman, dan penuh kemewahan ke destinasi impian Anda.
           </p>
           <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
             Pesan Tiket Sekarang
@@ -105,7 +106,7 @@
     <section class="bg-white border-b py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Title
+          Selamat Datang di Penerbangan Terbaik
         </h2>
         <div class="w-full mb-4">
           <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
@@ -113,24 +114,15 @@
         <div class="flex flex-wrap">
           <div class="w-5/6 sm:w-1/2 p-6">
             <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-              Lorem ipsum dolor sit amet
+              Kenyamanan & Kepercayaan
             </h3>
             <p class="text-gray-600 mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-              <br />
-              <br />
-
-              Images from:
-
-              <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
-            </p>
+              Kami menghadirkan pengalaman penerbangan yang nyaman dengan kursi ergonomis, layanan ramah, dan hiburan berkualitas di setiap perjalanan.
+            
           </div>
           <div class="w-full sm:w-1/2 p-6">
           
               <img src="img/397576021.jpg" alt="">
-              <title>travel booking</title>
-
-
           </div>
         </div>
         <div class="flex flex-wrap flex-col-reverse sm:flex-row">
@@ -141,15 +133,11 @@
           <div class="w-full sm:w-1/2 p-6 mt-6">
             <div class="align-middle">
               <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
-                Lorem ipsum dolor sit amet
+                Terbang ke Seluruh Dunia
               </h3>
               <p class="text-gray-600 mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.
-                <br />
-                <br />
-                Images from:
-
-                <a class="text-pink-500 underline" href="https://undraw.co/">undraw.co</a>
+                Jelajahi berbagai destinasi impian Anda dengan penerbangan yang andal dan tepat waktu.
+          
               </p>
             </div>
           </div>
@@ -319,6 +307,76 @@
         </div>
       </div>
     </section>
+
+    <div class="container2">
+      <div class="left-section">
+       <div class="logo">
+        Garuda
+        <span>
+         Miles
+        </span>
+       </div>
+       <a class="button primary" href="#">
+        Beli Miles
+        <span class="badge">
+         Limited Offer
+        </span>
+       </a>
+       <a class="button" href="#">
+        Daftar GarudaMiles Junior
+       </a>
+       <a class="button" href="#">
+        Daftar Kartu Co-brand
+       </a>
+       <a class="button" href="#">
+        Daftar GarudaMiles Gold Privilege
+       </a>
+      </div>
+      <div class="right-section">
+       <div class="image-container">
+        <img alt="Hand holding multiple GarudaMiles cards" height="300" src="https://storage.googleapis.com/a1aa/image/ZLO1magpujxY0yPKybgvOlIPdlXGO9VjHa5OiyWuhkE.jpg" width="400"/>
+       </div>
+       <div class="description">
+        <h2>
+         Dapatkan Banyak Keuntungan Saat Terbang: Setiap Miles Berarti!
+        </h2>
+        <p>
+         Setiap perjalanan bersama Garuda Indonesia sangatlah berharga. Dapatkan miles saat Anda terbang bersama kami dan maskapai partner kami, serta berbagai keuntungan eksklusif dan istimewa untuk Anda. Jangan tunggu lagi, segera daftar sekarang!
+        </p>
+       </div>
+       <div class="icon-section">
+        <div class="icon">
+         <i class="fas fa-shopping-cart">
+         </i>
+         <p>
+          Beli Miles
+         </p>
+        </div>
+        <div class="icon">
+         <i class="fas fa-exchange-alt">
+         </i>
+         <p>
+          Transfer Miles
+         </p>
+        </div>
+        <div class="icon">
+         <i class="fas fa-gift">
+         </i>
+         <p>
+          Penukaran Miles
+         </p>
+        </div>
+        <div class="icon">
+         <i class="fas fa-question-circle">
+         </i>
+         <p>
+          Klaim Miles Yang Hilang
+         </p>
+        </div>
+
+       </div>
+      </div>
+     </div>
   
     <!-- Change the colour #f8fafc to match the previous section colour -->
     <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

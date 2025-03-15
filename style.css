@@ -11,9 +11,23 @@
     height: 100%;
     z-index: -1;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
 .container {
     position: relative;
-    padding: 20px;
+    padding: 30px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    background-color: #fff;
 }
 .header {
     display: flex;
@@ -129,3 +143,93 @@
     margin-bottom: 10px;
 }
 
+.left-section, .right-section {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+.left-section {
+    max-width: 300px;
+}
+.right-section {
+    max-width: 600px;
+}
+.logo {
+    font-size: 36px;
+    color: #005eb8;
+    margin-bottom: 20px;
+}
+.logo span {
+    color: #00a99d;
+}
+.button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 2px solid #005eb8;
+    border-radius: 25px;
+    text-align: center;
+    color: #005eb8;
+    text-decoration: none;
+    font-size: 18px;
+}
+.button.primary {
+    background-color: #005eb8;
+    color: #fff;
+    position: relative;
+}
+.button.primary .badge {
+    background-color: #fff;
+    color: #005eb8;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.image-container {
+    text-align: center;
+}
+.image-container img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+.description {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+.description h2 {
+    font-size: 24px;
+    color: #333;
+}
+.icon-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.icon-section .icon {
+    text-align: center;
+    flex: 1;
+    min-width: 100px;
+}
+.icon-section .icon i {
+    font-size: 48px;
+    color: #005eb8;
+}
+.icon-section .icon p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.icon-section .icon:nth-child(2) i {
+    color: #f47b20;
+}
+.icon-section .icon:nth-child(3) i {
+    color: #00a99d;
+}
+.icon-section .icon:nth-child(4) i {
+    color: #005eb8;
+}
