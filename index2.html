@@ -1,0 +1,275 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Garuda Indonesia
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+            height: 100%;
+            overflow: hidden;
+        }
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .container {
+            position: relative;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header-left, .header-right {
+            display: flex;
+            align-items: center;
+        }
+        .header-left img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .header-left a, .header-right a {
+            color: white;
+            margin-right: 20px;
+            text-decoration: none;
+        }
+        .header-right a:last-child {
+            margin-right: 0;
+        }
+        .main-content {
+            text-align: left;
+            margin-top: 100px;
+        }
+        .main-content h1 {
+            font-size: 50px;
+            margin: 0;
+        }
+        .main-content h2 {
+            font-size: 30px;
+            margin: 10px 0;
+        }
+        .main-content p {
+            font-size: 20px;
+            margin: 5px 0;
+        }
+        .tabs {
+            display: flex;
+            margin-top: 20px;
+        }
+        .tab {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 20px;
+            border-radius: 20px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .tab.active {
+            background: white;
+            color: black;
+        }
+        .options {
+            display: flex;
+            margin-top: 20px;
+        }
+        .option {
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+        }
+        .option input {
+            margin-right: 10px;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .search-bar input, .search-bar select {
+            background: transparent;
+            border: none;
+            color: white;
+            padding: 10px;
+            margin-right: 10px;
+            flex: 1;
+        }
+        .search-bar button {
+            background: #007bff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .search-bar button i {
+            color: white;
+        }
+        .promo {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .promo a {
+            color: white;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        .promo i {
+            margin-left: 5px;
+        }
+        .social-icons {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .social-icons a {
+            margin-bottom: 10px;
+        }
+  </style>
+ </head>
+ <body>
+  <img alt="Background image of a scenic view with traditional buildings and rocky coastline" class="background" height="1080" src="https://storage.googleapis.com/a1aa/image/E-rU9GE9quokeRYm6bdeopL_vXkekGmfe2ebNAMOjGk.jpg" width="1920"/>
+  <div class="container">
+   <div class="header">
+    <div class="header-left">
+     <img alt="Garuda Indonesia logo" height="40" src="https://storage.googleapis.com/a1aa/image/sfWqfDJfjtrbSgQDaGlTQRkHeYX7rv006X7g_zgOt_w.jpg" width="40"/>
+     <a href="#">
+      Perjalanan
+     </a>
+     <a href="#">
+      Destinasi
+     </a>
+     <a href="#">
+      Penawaran
+     </a>
+     <a href="#">
+      <i class="fas fa-globe">
+      </i>
+      ID
+     </a>
+    </div>
+    <div class="header-right">
+     <a href="#">
+      GarudaShop
+     </a>
+     <a href="#">
+      GarudaMiles
+     </a>
+     <a href="#">
+      <i class="fas fa-user">
+      </i>
+      Daftar atau Masuk
+     </a>
+    </div>
+   </div>
+   <div class="main-content">
+    <h2>
+     Terbang ke
+    </h2>
+    <h1>
+     Seoul
+    </h1>
+    <p>
+     Bersama
+     <strong>
+      Garuda Indonesia
+     </strong>
+    </p>
+    <p>
+     Mulai dari IDR 4,823,100*
+    </p>
+    <p>
+     <strong>
+      Pesan Sekarang!
+     </strong>
+    </p>
+    <div class="tabs">
+     <div class="tab active">
+      Penerbangan
+     </div>
+     <div class="tab">
+      Upgrade
+     </div>
+     <div class="tab">
+      Additional Service
+     </div>
+    </div>
+    <div class="options">
+     <div class="option">
+      <input id="one-way" name="trip" type="radio"/>
+      <label for="one-way">
+       Sekali Jalan
+      </label>
+     </div>
+     <div class="option">
+      <input id="round-trip" name="trip" type="radio"/>
+      <label for="round-trip">
+       Pergi Pulang
+      </label>
+     </div>
+     <div class="option">
+      <input id="multi-city" name="trip" type="radio"/>
+      <label for="multi-city">
+       Multi Kota
+      </label>
+     </div>
+     <div class="option">
+      <input id="garuda-miles" type="checkbox"/>
+      <label for="garuda-miles">
+       Tukarkan Garuda Miles
+      </label>
+     </div>
+    </div>
+    <div class="search-bar">
+     <input placeholder="Dari" type="text"/>
+     <input placeholder="Ke" type="text"/>
+     <input placeholder="Pergi" type="date"/>
+     <input placeholder="Pulang" type="date"/>
+     <select>
+      <option>
+       1 Penumpang, Economy
+      </option>
+     </select>
+     <input placeholder="Kode Promo" type="text"/>
+     <button>
+      <i class="fas fa-search">
+      </i>
+     </button>
+    </div>
+    <div class="promo">
+     <a href="#">
+      Tambahkan Kode Promo
+     </a>
+     <i class="fas fa-info-circle">
+     </i>
+    </div>
+   </div>
+   <div class="social-icons">
+    <a href="#">
+     <i class="fab fa-whatsapp fa-2x">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fas fa-comments fa-2x">
+     </i>
+    </a>
+   </div>
+  </div>
+ </body>
+</html>
