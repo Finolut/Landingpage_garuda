@@ -1,5 +1,5 @@
 .gradient {
-    background: linear-gradient(90deg, #193ffd 0%, #8b92f5 100%);
+    background: linear-gradient(90deg, #0022cc 0%, #8b92f5 100%);
   }
 
 
@@ -15,7 +15,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    
+    background-color: #fff;
 }
 .container {
     position: relative;
@@ -25,10 +25,78 @@ body {
 .container2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     padding: 30px;
     background-color: #fff;
+    padding-left: 200px;
 }
+
+.left-section, .right-section {
+    flex: 1;
+    min-width: 300px; /* Pastikan section tidak terlalu kecil */
+}
+
+.image-container {
+    position: absolute;
+    right: 10px;
+    width: 300px;
+    margin-right: 50px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description, .icon-section {
+    margin-top: 20px;
+}
+
+.icon-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.icon {
+    flex: 1;
+    min-width: 120px;
+    text-align: center;
+}
+
+/* Media Queries untuk Responsif */
+@media (max-width: 768px) {
+    .container2 {
+        padding-left: 30px;
+        flex-direction: column;
+    }
+
+    .image-container {
+        order: -1; /* Letakkan gambar di atas pada layar kecil */
+    }
+
+    .right-section {
+        text-align: center;
+    }
+
+    .icon-section {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .container2 {
+        padding: 15px;
+    }
+
+    .left-section, .right-section {
+        min-width: 100%;
+    }
+
+    .icon {
+        min-width: 100%;
+    }
+}
+
 .header {
     display: flex;
     justify-content: space-between;

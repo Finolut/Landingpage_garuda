@@ -10,7 +10,7 @@
     <meta name="description" content="Simple landind page" />
     <meta name="keywords" content="" />
     <meta name="author" content="" />
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!--Replace with your tailwind.css once created-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
@@ -310,73 +310,28 @@
 
     <div class="container2">
       <div class="left-section">
-       <div class="logo">
-        Garuda
-        <span>
-         Miles
-        </span>
-       </div>
-       <a class="button primary" href="#">
-        Beli Miles
-        <span class="badge">
-         Limited Offer
-        </span>
-       </a>
-       <a class="button" href="#">
-        Daftar GarudaMiles Junior
-       </a>
-       <a class="button" href="#">
-        Daftar Kartu Co-brand
-       </a>
-       <a class="button" href="#">
-        Daftar GarudaMiles Gold Privilege
-       </a>
+          <div class="logo">Garuda <span>Miles</span></div>
+          <a class="button primary" href="#">Beli Miles <span class="badge">Limited Offer</span></a>
+          <a class="button" href="#">Daftar GarudaMiles Junior</a>
+          <a class="button" href="#">Daftar Kartu Co-brand</a>
+          <a class="button" href="#">Daftar GarudaMiles Gold Privilege</a>
       </div>
       <div class="right-section">
-       <div class="image-container">
-        <img alt="Hand holding multiple GarudaMiles cards" height="300" src="https://storage.googleapis.com/a1aa/image/ZLO1magpujxY0yPKybgvOlIPdlXGO9VjHa5OiyWuhkE.jpg" width="400"/>
-       </div>
-       <div class="description">
-        <h2>
-         Dapatkan Banyak Keuntungan Saat Terbang: Setiap Miles Berarti!
-        </h2>
-        <p>
-         Setiap perjalanan bersama Garuda Indonesia sangatlah berharga. Dapatkan miles saat Anda terbang bersama kami dan maskapai partner kami, serta berbagai keuntungan eksklusif dan istimewa untuk Anda. Jangan tunggu lagi, segera daftar sekarang!
-        </p>
-       </div>
-       <div class="icon-section">
-        <div class="icon">
-         <i class="fas fa-shopping-cart">
-         </i>
-         <p>
-          Beli Miles
-         </p>
-        </div>
-        <div class="icon">
-         <i class="fas fa-exchange-alt">
-         </i>
-         <p>
-          Transfer Miles
-         </p>
-        </div>
-        <div class="icon">
-         <i class="fas fa-gift">
-         </i>
-         <p>
-          Penukaran Miles
-         </p>
-        </div>
-        <div class="icon">
-         <i class="fas fa-question-circle">
-         </i>
-         <p>
-          Klaim Miles Yang Hilang
-         </p>
-        </div>
-
-       </div>
+          <div class="image-container">
+              <img src="https://storage.googleapis.com/a1aa/image/ZLO1magpujxY0yPKybgvOlIPdlXGO9VjHa5OiyWuhkE.jpg" alt="Hand holding multiple GarudaMiles cards">
+          </div>
+          <div class="description">
+              <h2>Dapatkan Banyak Keuntungan Saat Terbang: Setiap Miles Berarti!</h2>
+              <p>Setiap perjalanan bersama Garuda Indonesia sangatlah berharga. Dapatkan miles saat Anda terbang bersama kami dan maskapai partner kami, serta berbagai keuntungan eksklusif dan istimewa untuk Anda. Jangan tunggu lagi, segera daftar sekarang!</p>
+          </div>
+          <div class="icon-section">
+              <div class="icon"><i class="fas fa-shopping-cart"></i><p>Beli Miles</p></div>
+              <div class="icon"><i class="fas fa-exchange-alt"></i><p>Transfer Miles</p></div>
+              <div class="icon"><i class="fas fa-gift"></i><p>Penukaran Miles</p></div>
+              <div class="icon"><i class="fas fa-question-circle"></i><p>Klaim Miles Yang Hilang</p></div>
+          </div>
       </div>
-     </div>
+  </div>
   
     <!-- Change the colour #f8fafc to match the previous section colour -->
     <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -400,87 +355,74 @@
         </g>
       </g>
     </svg>
-    <section class="container mx-auto text-center py-6 mb-12">
-      <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
-        Call to Action
-      </h2>
-      <div class="w-full mb-4">
-        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
-      </div>
-      <h3 class="my-4 text-3xl leading-tight">
-        Main Hero Message to sell yourself!
-      </h3>
-      <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-        Action!
-      </button>
-    </section>
+
     <!--Footer-->
-    <footer class="bg-white">
+    <footer class="gradient">
       <div class="container mx-auto px-8">
         <div class="w-full flex flex-col md:flex-row py-6">
-          <div class="flex-1 mb-6 text-black">
-            <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+          <div class="flex-1 mb-6 text-white">
+            <a class="text-white no-underline hover:no-underline text-2xl lg:text-2xl" href="#">
               <!--Icon from: http://www.potlabicons.com/ -->
               <img class="h-8 inline" src="img/logo.png" alt="Gambar">
-              LANDING
+              Garuda Indonesia 
             </a>
           </div>
           <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Links</p>
+            <p class="uppercase text-white md:mb-6">Links</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
+                <a href="#" class="no-underline hover:underline text-white hover:text-pink-500">FAQ</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
+                <a href="#" class="no-underline hover:underline text-white hover:text-pink-500">Help</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
+                <a href="#" class="no-underline hover:underline text-white hover:text-pink-500">Support</a>
               </li>
             </ul>
           </div>
           <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+            <p class="uppercase text-white md:mb-6">Legal</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Terms</a>
+                <a href="#" class="no-underline hover:underline text-white hover:text-pink-500">Terms</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Privacy</a>
+                <a href="#" class="no-underline hover:underline text-white hover:text-pink-500">Privacy</a>
               </li>
             </ul>
           </div>
           <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Social</p>
+            <p class="uppercase text-white md:mb-6">Social</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Facebook</a>
+                <a href="#" class="no-underline hover:underline text-white hover:text-pink-500">Facebook</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Linkedin</a>
+                <a href="#" class="no-underline hover:underline text-white hover:text-pink-500">Linkedin</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Twitter</a>
+                <a href="#" class="no-underline hover:underline text-white hover:text-pink-500">Twitter</a>
               </li>
             </ul>
           </div>
           <div class="flex-1">
-            <p class="uppercase text-gray-500 md:mb-6">Company</p>
+            <p class="uppercase text-white md:mb-6">Company</p>
             <ul class="list-reset mb-6">
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Official Blog</a>
+                <a href="#" class="no-underline hover:underline text-white hover:text-pink-500">Official Blog</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">About Us</a>
+                <a href="#" class="no-underline hover:underline text-white hover:text-pink-500">About Us</a>
               </li>
               <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-                <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Contact</a>
+                <a href="#" class="no-underline hover:underline text-white hover:text-pink-500">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <a href="https://www.freepik.com/free-photos-vectors/background" class="text-gray-500">Background vector created by freepik - www.freepik.com</a>
+      <a href="https://www.freepik.com/free-photos-vectors/background" class="text-white">Copyright © 2025 PT Garuda Indonesia (Persero) Tbk. All Rights Reserved</a>
     </footer>
     <!-- jQuery if you need it
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
