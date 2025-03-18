@@ -301,3 +301,15 @@ body {
 .icon-section .icon:nth-child(4) i {
     color: #005eb8;
 }
+
+/* Animasi fade-in */
+.fade-in {
+    opacity: 0; /* Awalnya elemen tidak terlihat */
+    transform: translateY(20px); /* Geser elemen ke bawah 20px */
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out; /* Animasi halus */
+}
+
+.fade-in.visible {
+    opacity: 1; /* Elemen menjadi terlihat */
+    transform: translateY(0); /* Kembalikan ke posisi semula */
+}
